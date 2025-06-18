@@ -1,0 +1,22 @@
+﻿@page
+@model RazorApp.Pages.Students.Create
+
+<form method="post">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">FirstName</label>
+        <input asp-for="CreateStudentDto.FirstName" type="text" class="form-control" id="exampleFormControlInput1" placeholder="FirstName">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">LastName</label>
+        <input asp-for="CreateStudentDto.LastName" type="number" class="form-control" id="exampleFormControlInput2" placeholder="LastName">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Birthday</label>
+        <input asp-for="CreateStudentDto.Birthday" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Birthday">
+    </div>
+    <div class="d-flex gap-3">
+        <button type="submit" class="btn btn-primary mb-3">Add</button>
+        <a asp-page="/courses/index" class="btn btn-danger mb-3">Cancel</a>
+    </div>
+</form>
+
