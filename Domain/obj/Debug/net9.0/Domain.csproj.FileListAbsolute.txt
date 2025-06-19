@@ -16,6 +16,7 @@ D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEdit
 D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
 D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
 D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\Domain.sourcelink.json
 D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\Domain.dll
 D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\refint\Domain.dll
 D:\Project\Automapper -Razor\Domain\obj\Debug\net9.0\Domain.pdb

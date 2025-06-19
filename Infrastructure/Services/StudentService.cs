@@ -29,13 +29,11 @@ public class StudentService(DataContext context, IMapper mapper):IStudentService
         return new PagedResponse<List<GetStudentDto>>(mapped,totalrecords, validFilter.PageNumber, validFilter.PageSize);
     }
 
-    public async Task<Responce<List<GetStudentDto>>> GetStudentsAsync()
+    public async Task<Responce<List<GetStudentDto>>> GetStudents()
     {
         var students = await context.Students.ToListAsync();
         var mapped = mapper.Map<List<GetStudentDto>>(students);
-        return mapped == null
-            ? new Responce<List<GetStudentDto>>("Student not found", HttpStatusCode.InternalServerError)
-            : new Responce<List<GetStudentDto>>(mapped.ToList(), "Student successfully");
+        return new Responce<List<GetStudentDto>>(mapped, "Success");
     }
 
     public async Task<Responce<GetStudentDto>> GetStudentByIdAsync(int id)
@@ -49,11 +47,12 @@ public class StudentService(DataContext context, IMapper mapper):IStudentService
         return new Responce<GetStudentDto>(mapped, "Student found");
     }
 
-    public async Task<Responce<string>> CreateStudentAsync(CreateStudentDto createStudentDto)
+    public async Task<Responce<string>> CreateStudentAsync(CreateStudentDto studentDto)
     {
-       var mapped = mapper.Map<Student>(createStudentDto);
+       var mapped = mapper.Map<Student>(studentDto);
+       mapped.BirthDate = DateTime.SpecifyKind(mapped.BirthDate, DateTimeKind.Utc);
        await context.Students.AddAsync(mapped);
-       var result = await context.SaveChangesAsync();
+       var result = await  context.SaveChangesAsync();
        return result == 0 
            ? new Responce<string>("Student not created", HttpStatusCode.InternalServerError) 
            : new Responce<string>(null, "Student created successfully");

@@ -1,10 +1,4 @@
-D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\appsettings.Development.json
-D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\appsettings.json
-D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.staticwebassets.runtime.json
-D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.staticwebassets.endpoints.json
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.exe
-D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.deps.json
-D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.runtimeconfig.json
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.pdb
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\AutoMapper.dll
@@ -13,7 +7,6 @@ D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.EntityFramework
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
@@ -25,6 +18,7 @@ D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Npgsql.EntityFrameworkCor
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Domain.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Infrastructure.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Infrastructure.pdb
+D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\Domain.pdb
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.csproj.AssemblyReference.cache
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -34,6 +28,7 @@ D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.csproj.CoreCompi
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.RazorAssemblyInfo.cache
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.RazorAssemblyInfo.cs
+D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.sourcelink.json
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\scopedcss\bundle\RazorApp.styles.css
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\scopedcss\projectbundle\RazorApp.bundle.scp.css
@@ -110,9 +105,15 @@ D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\staticwebassets\msbuild.b
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.RazorApp.props
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.RazorApp.props
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\staticwebassets.pack.json
-D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.csproj.Up2Date
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.dll
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\refint\RazorApp.dll
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.pdb
+D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\appsettings.Development.json
+D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\appsettings.json
+D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.staticwebassets.runtime.json
+D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.staticwebassets.endpoints.json
+D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.deps.json
+D:\Project\Automapper -Razor\RazorApp\bin\Debug\net9.0\RazorApp.runtimeconfig.json
+D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.csproj.Up2Date
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\RazorApp.genruntimeconfig.cache
 D:\Project\Automapper -Razor\RazorApp\obj\Debug\net9.0\ref\RazorApp.dll

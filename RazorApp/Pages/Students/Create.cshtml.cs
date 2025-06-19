@@ -7,12 +7,11 @@ namespace RazorApp.Pages.Students;
 
 public class Create(IStudentService studentService) : PageModel
 {
-    public void OnGet()
-    {
-        
-    }
-
-   [BindProperty] public CreateStudentDto CreateStudentDto {get; set; }
+    
+    
+    
+    
+    [BindProperty] public CreateStudentDto CreateStudentDto {get; set; }
 
     public async Task<IActionResult> OnPostAsync()
     {
@@ -21,6 +20,6 @@ public class Create(IStudentService studentService) : PageModel
         {
             return Page();
         }
-        return RedirectToPage("Index");
+        return RedirectToPage("index");
     }
 }

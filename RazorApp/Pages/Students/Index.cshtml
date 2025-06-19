@@ -3,7 +3,7 @@
 
 <div class="d-flex justify-content-between">
     <h2>Students</h2>
-    <a asp-page="/courses/create" class="btn btn-primary mb-3">+Add</a>
+    <a asp-page="/students/create" class="btn btn-primary mb-3">+Add</a>
 </div>
 
 <table class="table table-hover">
@@ -12,7 +12,7 @@
             <th scope="col">#</th>
             <th scope="col">FirstName</th>
             <th scope="col">LastName</th>
-            <th scope="col">Birthday</th>
+            <th scope="col">BirthDate</th>
         </tr>
         </thead>
         
@@ -27,7 +27,7 @@
             <th scope="row">@(cnt++)</th>
             <td>@student.FirstName</td>
             <td>@student.LastName</td>
-            <td>@student.Birthday</td>
+            <td>@student.BirthDate</td>
         </tr>
         
         }

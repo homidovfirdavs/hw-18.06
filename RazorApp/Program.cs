@@ -1,4 +1,5 @@
 using Domain.Filters;
+using Infrastructure.Automapper;
 using Infrastructure.Data;
 using Infrastructure.Interfaces;
 using Infrastructure.Services;
@@ -9,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<IStudentService, StudentService>();
-builder.Services.AddAutoMapper(typeof(StudentFilter));
+builder.Services.AddAutoMapper(typeof(InfrastructureProfile));
 
 builder.Services.AddDbContext<DataContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
